@@ -30,6 +30,7 @@ class Store extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
+            [['store_name','price'],'required'],
             [['device_id'], 'integer'],
             [['price'], 'number'],
             [['created_at', 'updated_at'], 'safe'],
