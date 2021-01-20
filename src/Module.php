@@ -4,7 +4,6 @@ namespace deadpoolzephyr\store;
 
 class Module extends \yii\base\Module
 {
-
     public $controllerNamespace = 'deadpoolzephyr\store\controllers';
 
     public function init()
